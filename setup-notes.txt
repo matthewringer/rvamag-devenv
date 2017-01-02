@@ -1,0 +1,27 @@
+// Dev Setup
+// Installing WordPress
+
+1. Install Docker/Docker is installed
+2. Docker Compose File
+3. docker-compose up -d 
+
+
+// Theme creation and Setup
+
+1. add directory wp-content/themes/<theme name>
+2. Create index.php in theme root
+3. Create style.css in theme root
+
+//  Create Style Guide
+
+1. add a new template.php fle for style guide.
+2. create a WP page for style guide
+3. set new page template to the style guide template.
+4. publish page and edit the template php file to build style guide.
+
+// Install Advanced Ads
+
+1. https://wordpress.org/plugins/advanced-ads/
+2.  
+
+
