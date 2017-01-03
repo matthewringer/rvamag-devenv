@@ -1,4 +1,13 @@
 // Dev Setup
+
+// Setup Dev Env
+1. Clone RVA Mag DevEnv repo
+2. Run Docker compose script: docker-compose up -d
+3. bind theme repo and style guide repo
+    $ bindfs ~/dev/repos/matthewringer/rvamag-styleguide/ styleguide
+    $ bindfs ~/dev/repos/matthewringer/rvamag-theme/ rvamagazine
+
+
 // Installing WordPress
 
 1. Install Docker/Docker is installed
@@ -19,9 +28,14 @@
 3. set new page template to the style guide template.
 4. publish page and edit the template php file to build style guide.
 
+sass --watch partials/_layout.scss:css/_layout.css partials/_basic-style.scss:css/_basic-style.css  scss/style-guide.scss:css/style-guide.css
+
 // Install Advanced Ads
 
 1. https://wordpress.org/plugins/advanced-ads/
 2.  
 
+// SEO 
 
+1. Investigate AMP 
+    https://wordpress.org/plugins/amp/
